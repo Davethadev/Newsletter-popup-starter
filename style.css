@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./Assets/Background.png');
+}
+
+#card {
+    width: 325px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#header {
+    background-image: url('./Assets/Pattern.png');
+    background-color: blue;
+    padding: 25px;
+    text-align: center;
+}
+
+#header-text {
+    margin: auto;
+    width: 220px;
+    color: #fff;
+}
+
+#template  {
+    background-color: #fff;
+    padding-bottom: 15px;
+}
+
+p {
+    font-size: 10px;
+}
+
+.ad {
+    text-align: center;
+    width: 235px;
+    margin: 20px auto;
+    color: hsl(210, 10%, 53%);
+}
+
+#input {
+    width: 100%;
+    text-align: center;
+    
+}
+
+input {
+    width: 55%;
+    padding: 10px 16px;
+    font-size: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(210, 10%, 93%);
+    color: hsl(210, 10%, 80%);
+}
+
+button {
+    padding: 10px 14px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    margin-left: 6px;
+    border-radius: 5px;
+}
+
+#spam-msg {
+    padding-left: 16.5px;
+    color: hsl(210, 10%, 80%);
+}
+
+#author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.25;
+    margin-top: 22px;
+}
+
+#author-profile {
+    margin-left: 5px;
+}
+
+#author-post {
+    color: hsl(210, 10%, 48%);
+}
+
+#author-profile p {
+    margin: 0;
+}
+
+#testimonial {
+    text-align: center;
+    width: 242px;
+    margin: 10px auto 0;
+    color: hsl(210, 10%, 53%);
+}
+
